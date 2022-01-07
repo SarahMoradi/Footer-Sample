@@ -83,7 +83,7 @@ ul a {
   }
 }
 @media only screen and (min-width: 961px) {
-  .email-positin {
-    margin-right: -22px;
+  .default-input-positin {
+    margin-right: -20px;
   }
 }
