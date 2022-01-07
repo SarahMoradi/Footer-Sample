@@ -43,9 +43,13 @@ ul a {
     width: 300px !important;
   }
   .copy-right-default {
+    margin: 0 !important;
+  }
+  .form-styles {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    margin: 0 !important;
   }
 }
