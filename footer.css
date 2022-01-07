@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  background-color: rgb(238, 237, 237);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 100px;
+  background-color: #fff;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.default-footer {
+  margin-top: 100px;
+  background-color: #fff;
+}
+ul {
+  padding-right: 4rem !important;
+  margin-bottom: 2rem !important;
+}
+ul a {
+  text-decoration: none;
+}
+.line {
+  width: 60%;
+  background-color: black;
+  height: 1px;
+}
+.mobile-default-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 617px) {
+  .default-submit-button {
+    width: 300px !important;
+  }
+  .copy-right-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
