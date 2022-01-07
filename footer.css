@@ -37,13 +37,15 @@ ul a {
   justify-content: center;
   align-items: center;
 }
+.copy-right-default {
+  margin: 0 !important;
+  text-align: center;
+  margin-top: 3rem !important;
+}
 
-@media only screen and (max-width: 617px) {
+@media only screen and (max-width: 960px) {
   .default-submit-button {
     width: 300px !important;
-  }
-  .copy-right-default {
-    margin: 0 !important;
   }
   .form-styles {
     display: flex;
@@ -51,5 +53,37 @@ ul a {
     justify-content: center;
     align-items: center;
     margin: 0 !important;
+  }
+}
+@media (min-width: 522px) and (max-width: 961px) {
+  .default-col {
+    width: 50%;
+  }
+  .o-1 {
+    order: 1;
+    margin-top: 2rem;
+  }
+  .o-2 {
+    order: 2;
+    margin-top: 2rem;
+  }
+  .o-3 {
+    order: 3;
+    margin-top: 2rem;
+  }
+  .o-4 {
+    order: 4;
+    margin-top: 2rem;
+  }
+  .o-5 {
+    order: 5;
+  }
+  .o-6 {
+    order: 6;
+  }
+}
+@media only screen and (min-width: 961px) {
+  .email-positin {
+    margin-right: -22px;
   }
 }
